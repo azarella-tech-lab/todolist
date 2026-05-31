@@ -1,8 +1,10 @@
+import ToDo from "./components/ToDo.jsx";
+
 const App = () => {
+  const userName = "assyl";
+  console.log(userName)
   return (
-      <div>
-      <h1>To Do List</h1>
-      </div>
+   <ToDo />
   )
 }
 
